@@ -1,0 +1,23 @@
+{
+  "name": "template-nodejs",
+  "version": "1.0.0",
+  "description": "It is a really simple api to be used on proof-of-concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marqueswsm/template-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marqueswsm/template-nodejs/issues"
+  },
+  "homepage": "https://github.com/marqueswsm/template-nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
