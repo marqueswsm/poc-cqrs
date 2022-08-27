@@ -4,7 +4,8 @@
   "description": "It is a really simple api to be used on proof-of-concepts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate:up": "knex migrate:up",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
