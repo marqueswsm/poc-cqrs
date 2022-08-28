@@ -1,5 +1,5 @@
 {
-  "name": "template-nodejs",
+  "name": "poc-cqrs",
   "version": "1.0.0",
   "description": "It is a really simple api to be used on proof-of-concepts",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marqueswsm/template-nodejs.git"
+    "url": "git+https://github.com/marqueswsm/poc-cqrs.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/marqueswsm/template-nodejs/issues"
+    "url": "https://github.com/marqueswsm/poc-cqrs/issues"
   },
-  "homepage": "https://github.com/marqueswsm/template-nodejs#readme",
+  "homepage": "https://github.com/marqueswsm/poc-cqrs#readme",
   "dependencies": {
     "express": "^4.18.1",
     "knex": "^2.2.0",
