@@ -3,9 +3,10 @@ class TaskController {
     this.service = context.taskService;
   }
 
-  create(req, res, next) {
-    const response = this.service.create();
-    res.status(200).send(response);
+  async create(req, res, next) {
+    const data = req.body;
+    await this.service.create(data);
+    res.sendStatus(201);
   }
   
   found(req, res, next) {
