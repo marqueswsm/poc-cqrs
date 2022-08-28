@@ -1,9 +1,11 @@
 const express = require('express');
 const TaskController = require('./src/controller/task');
 const TaskService = require('./src/service/task');
+const Database = require('./src/infrastructure/mysql/connection');
 
 const app = express();
 
+const mysqlConnection = Database.connect();
 const taskService = new TaskService();
 const taskController = new TaskController({ taskService });
 

@@ -4,7 +4,6 @@
   "description": "It is a really simple api to be used on proof-of-concepts",
   "main": "index.js",
   "scripts": {
-    "migrate:up": "knex migrate:up",
     "start": "node index.js"
   },
   "repository": {

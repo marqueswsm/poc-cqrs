@@ -8,7 +8,6 @@ services:
       - 3000:3000
     volumes: 
       - .:/app
-      - '/app/node_modules'
     depends_on: 
       - mysql_server
   mysql_server:
@@ -16,4 +15,6 @@ services:
     environment:
       - MYSQL_DATABASE=cqrs
       - MYSQL_ROOT_PASSWORD=root
+    volumes:
+      - .:/app
     
