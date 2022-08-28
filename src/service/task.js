@@ -1,9 +1,10 @@
 class TaskService {
   constructor(context) {
-    this.taskRepository = context.taskRepository;
+    this.taskInfrastructure = context.taskInfrastructure;
   }
+
   create(data) {
-    return this.taskRepository.create(data);
+    return this.taskInfrastructure.create(data);
   }
 
   found() {
